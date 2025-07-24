@@ -1,0 +1,277 @@
+/*global Reset & Primitive Body Styles*/
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #d0e7ff;
+}
+/*Navigation bar Styles*/
+.site2416280-navigation {
+  background-color: #004080;
+  padding: 1rem;
+}
+.site2416280-navigation a {
+  color: #ffffff;
+  margin: 0 12px;
+  text-decoration: underline;
+}
+/*for Styling page content area and section*/
+.page-content {
+  padding: 2rem;
+}
+/*the Form styling*/
+.form-section {
+  margin-bottom: 1.5rem;
+}
+.input-field {
+  padding: 0.5rem;
+  width: 280px;
+}
+.action-button {
+  padding: 0.5rem 1.2rem;
+  background-color: #004080;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.action-button:hover {
+  background-color: #022b54;
+}
+/*Results grid layout*/
+.results-container {
+  margin-top: 2rem;
+}
+.result-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+.result-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  flex: 1 1 200px;
+  background-color: #ffffff;
+}
+/*THIs is the Login screen styling*/
+body.login-screen {
+  background: #080710;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-shapes::after {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  z-index: -1;
+}
+.login-shapes::before {
+  background: radial-gradient(circle at center, #1845ad, #23a2f6);
+  top: -40px;
+  left: -40px;
+}
+.login-shapes::after {
+  background: radial-gradient(circle at center, #ff512f, #f09819);
+  bottom: -40px;
+  right: -40px;
+}
+.login-box {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  padding: 40px 30px;
+  border-radius: 10px;
+  width: 340px;
+  color: #ffffff;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.login-box h1 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.login-box label {
+  display: block;
+  margin-top: 14px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+.login-box input::placeholder {
+  color: #cccccc;
+}
+.login-box button {
+  width: 100%;
+  margin-top: 20px;
+  background: #ffffff;
+  color: #080710;
+  border: none;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login-box button:hover {
+  background: #e5e5e5;
+}
+.login-box .error-message {
+  background: rgba(255, 0, 0, 0.3);
+  color: #fff;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 4px;
+  text-align: center;
+}
+/*to the Register screen styling*/
+body.register-screen {
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+.register-box {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+}
+.register-form {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 38px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.register-form h1 {
+  text-align: center;
+  margin-bottom: 28px;
+  font-size: 26px;
+  color: #333333;
+}
+.register-form label {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 5px;
+  color: #333333;
+  font-weight: 600;
+}
+.register-form input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background: #f9f9f9;
+  font-size: 14px;
+}
+.register-form input::placeholder {
+  color: #aaaaaa;
+}
+.register-form button {
+  width: 100%;
+  background: #4e54c8;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.register-form button:hover {
+  background: #3b40a4;
+}
+.register-form .error-message {
+  background: rgba(255, 0, 0, 0.1);
+  color: #a00;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.register-form .link-area {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+.register-form .link-area a {
+  color: #4e54c8;
+  text-decoration: none;
+  font-weight: bold;
+}
+.register-form .link-area a:hover {
+  text-decoration: underline;
+}
+/*this is the Dashboard styling*/
+.dashboard-glass {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  padding: 40px 30px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 30px auto;
+  color: #000000; 
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.mypromisedashboard-uni-list {
+  list-style: none;
+  padding: 0;
+}
+.mypromisedashboard-uni-list li {
+  background: rgba(255,255,255,0.1);
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.uni-title {
+  font-weight: 600;
+  flex: 1;
+}
+.link-btn,
+.delete-btn,
+.logout-btn {
+  background: #ffffff;
+  color: #080710;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: background 0.3s ease;
+}
+.link-btn:hover,
+.delete-btn:hover,
+.logout-btn:hover {
+  background: #e5e5e5;
+}
+.delete-form {
+  display: inline;
+}
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
