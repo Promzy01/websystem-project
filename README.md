@@ -37,9 +37,3 @@ A dynamic PHP-based university search platform built as part of the CO7006 cours
 
 ---
 
-## 🛠️ How to Run Locally
-
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/Promzy01/websystem-project.git
-   cd websystem-project
